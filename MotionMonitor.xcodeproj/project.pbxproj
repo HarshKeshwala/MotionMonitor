@@ -12,6 +12,7 @@
 		FF5BAD192256CB32003487D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAD172256CB32003487D1 /* Main.storyboard */; };
 		FF5BAD1B2256CB34003487D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAD1A2256CB34003487D1 /* Assets.xcassets */; };
 		FF5BAD1E2256CB34003487D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5BAD1C2256CB34003487D1 /* LaunchScreen.storyboard */; };
+		FFFE7FFF2258000A001DDCE6 /* powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFFE7FFE2258000A001DDCE6 /* powerup.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FF5BAD1A2256CB34003487D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF5BAD1D2256CB34003487D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5BAD1F2256CB34003487D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFE7FFE2258000A001DDCE6 /* powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = powerup.wav; path = ../../powerup.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FF5BAD122256CB32003487D1 /* MotionMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				FFFE7FFE2258000A001DDCE6 /* powerup.wav */,
 				FF5BAD132256CB32003487D1 /* AppDelegate.swift */,
 				FF5BAD152256CB32003487D1 /* ViewController.swift */,
 				FF5BAD172256CB32003487D1 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5BAD1E2256CB34003487D1 /* LaunchScreen.storyboard in Resources */,
+				FFFE7FFF2258000A001DDCE6 /* powerup.wav in Resources */,
 				FF5BAD1B2256CB34003487D1 /* Assets.xcassets in Resources */,
 				FF5BAD192256CB32003487D1 /* Main.storyboard in Resources */,
 			);
